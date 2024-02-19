@@ -7,7 +7,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 function Skills() {
 
-    const [imgView, setImgView] = useState(3);
+    const [imgView, setImgView] = useState(6);
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
     const mainControll = useAnimation();
@@ -16,9 +16,10 @@ function Skills() {
         { id: 0, img: require("@/public/imgs/list/01.jpeg") },
         { id: 1, img: require("@/public/imgs/list/02.jpeg") },
         { id: 2, img: require("@/public/imgs/list/03.jpg") },
-        { id: 3, img: require("@/public/imgs/list/04.jpg") },
+        { id: 3, img: require("@/public/imgs/list/07.jpg") },
         { id: 4, img: require("@/public/imgs/list/05.jpg") },
         { id: 5, img: require("@/public/imgs/list/06.jpg") },
+        { id: 6, img: require("@/public/imgs/list/04.jpg") },
     ];
 
     useEffect(() => {
@@ -88,7 +89,7 @@ function Skills() {
                             delay: .7
                         }}
                     >
-                        <li onClick={() => setImgView(3)} className='text-xl flex items-center gap-1 lg:text-3xl font-semibold transition-colors cursor-pointer hover:text-green-600'><MdArrowRightAlt size={15} /> Traumatologia</li>
+                        <li onClick={() => setImgView(6)} className='text-xl flex items-center gap-1 lg:text-3xl font-semibold transition-colors cursor-pointer hover:text-green-600'><MdArrowRightAlt size={15} /> Traumatologia</li>
                         <li onClick={() => setImgView(1)} className='text-xl flex items-center gap-1 lg:text-3xl font-semibold transition-colors cursor-pointer hover:text-green-600'><MdArrowRightAlt size={15} /> Hérnia de disco</li>
                         <li onClick={() => setImgView(5)} className='text-xl flex items-center gap-1 lg:text-3xl font-semibold transition-colors cursor-pointer hover:text-green-600'><MdArrowRightAlt size={15} /> Fraturas e Luxações</li>
                         <li onClick={() => setImgView(3)} className='text-xl flex items-center gap-1 lg:text-3xl font-semibold transition-colors cursor-pointer hover:text-green-600'><MdArrowRightAlt size={15} /> Luxação de patela</li>

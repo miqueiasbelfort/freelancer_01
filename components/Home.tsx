@@ -46,8 +46,8 @@ function Home() {
             delay: .8
           }}
         >
-          <h2 className='text-3xl lg:text-5xl text-[#AAD5C2] font-bold'>Pequenos animais</h2>
           <h1 className='text-5xl lg:text-8xl text-white font-bold'>Ortopedia <span className='text-[#AAD5C2]'>&</span> Neurocirurgia</h1>
+          <h2 className='text-3xl lg:text-5xl mt-4 text-[#AAD5C2] font-bold'>Veterinária</h2>
         </motion.div>
         <motion.div
           variants={{
