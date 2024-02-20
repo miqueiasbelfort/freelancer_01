@@ -6,8 +6,8 @@ import Header from "@/components/Header";
 const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ítalo Rodrigues - ortopedia & neurocirurgia de pequenos animais",
-  description: "Dr. Ítalo Rodriguis, pequenos animais, formado pela UPIS-DF, com residência em clínica cirúrgica na Hvet UPIS-DF e aperfeiçoamento em neurocirurgia de pequenos animais pela UNESP, Jaboticabal-SP.",
+  title: "Ítalo Rodrigues - Ortopedia & Neurocirurgia Veterinária",
+  description: "Bem-vindo ao consultório do Dr. Ítalo Rodrigues, especializado em ortopedia e neurocirurgia veterinária. Oferecemos cuidados especializados e avançados para seus animais de estimação, garantindo o melhor tratamento para suas necessidades ortopédicas e neurológicas. Conte com nossa experiência e dedicação para cuidar da saúde e bem-estar do seu companheiro peludo.",
 };
 
 export default function RootLayout({
