@@ -51,7 +51,7 @@ function Sobre() {
         </div>
         <h3 className='text-white font-light mb-10'>Sobre o Dr. Ítalo Rodriguis</h3>
         <p className='text-lg sm:text-xl md:text-3xl lg:text-4xl font-semibold text-white mb-4'>
-          Formado pela UPIS-DF, com residência em clínica cirúrgica na Hvet UPIS-DF e aperfeiçoamento em neurocirurgia de pequenos animais pela UNESP, Jaboticabal-SP.
+          Formado pela UPIS-DF, com residência em clínica cirúrgica no Hvet UPIS-DF e aperfeiçoamento em neurocirurgia de pequenos animais pela UNESP, Jaboticabal-SP.
         </p>
         <div className='flex'>
           <a href="https://www.instagram.com/italociruvet/" className='px-5 flex items-center gap-2 py-3 text-white border border-[#AAD5C2] rounded-md hover:bg-[#AAD5C2] hover:text-gray-900 transition-colors'>
