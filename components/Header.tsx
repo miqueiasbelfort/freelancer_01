@@ -14,7 +14,7 @@ function Header() {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
                 <a href="#home" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image src={require("@/public/imgs/logo.png")} className="h-8 w-8" alt="Flowbite Logo" />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap">ítalo Rodriguis</span>
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap">Ítalo Rodriguis</span>
                 </a>
                 <button onClick={() => setOpenMenu(!openMenu)} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden" aria-controls="navbar-default" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
