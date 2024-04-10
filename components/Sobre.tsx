@@ -54,7 +54,7 @@ function Sobre() {
           Formado pela UPIS-DF, com residência em clínica cirúrgica no Hvet UPIS-DF e aperfeiçoamento em neurocirurgia de pequenos animais pela UNESP, Jaboticabal-SP.
         </p>
         <div className='flex'>
-          <a href="https://www.instagram.com/italociruvet/" className='px-5 flex items-center gap-2 py-3 text-white border border-[#AAD5C2] rounded-md hover:bg-[#AAD5C2] hover:text-gray-900 transition-colors'>
+          <a href="https://www.instagram.com/ortoneuro.vet/" className='px-5 flex items-center gap-2 py-3 text-white border border-[#AAD5C2] rounded-md hover:bg-[#AAD5C2] hover:text-gray-900 transition-colors'>
             Saber mais
             <BsChatRightHeart size={15} />
           </a>
